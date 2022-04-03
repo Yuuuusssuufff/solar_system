@@ -8,7 +8,36 @@
     <title>Solar System</title>
 </head>
 <body>
-   
+    <h3>Calculate a weight of an object on a planet</h3>
+<nav>
+    <input type="text">
+    <select name="planet" id="planet">
+        <option value="select">--select planet--</option>
+        <option value="mercury">Mercury</option>
+        <option value="venus">Venus</option>
+        <option value="earth">Earth</option>
+        <option value="mars">Mars</option>
+        <option value="jupiter">Jupiter</option>
+        <option value="saturn">Saturn</option>
+        <option value="uranus">Uranus</option>
+        <option value="neptune">Neptune</option>
+        <option value="pluto">Pluto</option>
+        <option value="moon">Moon</option>
+    </select>
+    <button>Calculate weight</button>
+</nav>
+    <section id="container">
+        <div>
+            <img src="./earth.png" alt="display">
+        </div>
+        <div id="description">
+            <h5>Mass is required</h5>
+            <div id="result">
+                <span id="display-result" class="display-result">00.00 N</span>
+            </div>
+        </div>
+         
+    </section>
     
 </body>
 </html>

@@ -5,3 +5,52 @@ html,body{
     margin: 0;
     padding: 0;
 }
+body{
+    display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-image: url(./galaxy.gif);
+background-repeat: repeat;
+background-size: 200px;
+color: white;
+
+}
+#container{
+    width: 600px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+
+
+}
+h5{
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+img{
+    width: 250px;
+}
+#description{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    display: none;
+}
+#result{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+#display-result{
+    padding: 5px 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
