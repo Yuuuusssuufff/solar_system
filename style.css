@@ -1,9 +1,16 @@
 *, ::before, ::after{
     box-sizing: border-box;
+    user-select: none;
 }
 html,body{
     margin: 0;
     padding: 0;
+}
+@media screen and(min-width: 1080px)
+{body{
+    background-color: blue;
+}
+    
 }
 body{
     display: flex;
@@ -29,40 +36,47 @@ button,select,input{
     outline: none;
 }
 #container{
-    width: 600px;
-    height: 300px;
+    width: 60vw;
     background-color: rgba(255, 255, 255, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
     column-gap: 20px;
-
+    /* padding: 20px; */
 
 }
 h5{
-    padding: 5px 20px;
+    padding: 10px 20px;
+    width: 30vw;
+    justify-content: center;
+    font-size: 10px;
     background-color: rgba(255, 255, 255, 0.1);
+    display: none;
 }
 img{
     width: 250px;
+    margin: 20px 0;
 }
 #description{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    display: none;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    
 }
 #result{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+    display: none;
 }
 #display-result{
-    padding: 5px 20px;
+    padding: 3px 10px;
+    font-size: 12px;
     background-color: rgba(255, 255, 255, 0.1);
 }
