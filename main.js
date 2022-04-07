@@ -1,4 +1,3 @@
-// document.write("Hellow World!!!!")
 const body = document.body
 const inputEl = document.querySelector("input")
 const selectEl = document.querySelector("select")
